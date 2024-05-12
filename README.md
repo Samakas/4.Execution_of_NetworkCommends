@@ -56,7 +56,7 @@ while True:
 ### TRACEROUTE COMMAND
 ```
 from scapy.all import* 
-target = ["www.google.com"] ![client3a](https://github.com/Samakas/4.Execution_of_NetworkCommends/assets/154731670/2ca51187-2778-4c6a-974f-5f10b708a42b)
+target = ["www.google.com"] 
 
 result, unans = traceroute(target,maxttl=32) 
 print(result,unans)
